@@ -17,7 +17,7 @@ from sklearn.ensemble import RandomForestClassifier
 from xgboost import XGBClassifier
 from tensorflow.keras import Input
 from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense
+import tensorflow.keras.layers
 
 app = Flask(__name__)
 
@@ -142,9 +142,9 @@ def run_ml():
 
     model = Sequential()
     model.add(Input(shape=(6,)))
-    model.add(Dense(12, activation='relu'))
-    model.add(Dense(6, activation='relu'))
-    model.add(Dense(1, activation='sigmoid'))
+    model.add(tensorflow.keras.layers.Dense(12, activation='relu'))
+    model.add(tensorflow.keras.layers.Dense(6, activation='relu'))
+    model.add(tensorflow.keras.layers.Dense(1, activation='sigmoid'))
     model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
     model.fit(X_train, y_train, epochs=15, batch_size=16, verbose=0)
     bpnn_pred_prob = model.predict(X_test).flatten()

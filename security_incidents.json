@@ -1,1202 +1,1202 @@
 [
   {
-    "timestamp": "2026-02-09 11:31:58",
-    "node_id": 98,
-    "attack_type": "grayhole",
-    "confidence": "0.70%",
-    "features": {
-      "pdr": 0.3046092492053262,
-      "throughput": 11.63091447972049,
-      "packet_drop_rate": 0.7854876525723584,
-      "bandwidth": 10.0
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:58",
-    "node_id": 2275,
-    "attack_type": "unknown",
-    "confidence": "52.77%",
-    "features": {
-      "pdr": 0.9830808531797616,
-      "throughput": 98.71012121847812,
-      "packet_drop_rate": 0.09932934861802006,
-      "bandwidth": 97.13440575034294
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:58",
+    "timestamp": "2026-03-10 15:00:55",
     "node_id": 5,
-    "attack_type": "blackhole",
-    "confidence": "1.50%",
-    "features": {
-      "pdr": -0.05074892105076945,
-      "throughput": 12.395046920192078,
-      "packet_drop_rate": 1.0,
-      "bandwidth": 47.58252419657185
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:58",
-    "node_id": 67,
     "attack_type": "grayhole",
-    "confidence": "0.34%",
+    "confidence": "0.58%",
     "features": {
-      "pdr": 0.3747834975510528,
-      "throughput": 15.196579107844837,
-      "packet_drop_rate": 0.6621178225370005,
+      "pdr": 0.5573964018805575,
+      "throughput": 11.97264225093733,
+      "packet_drop_rate": 0.48350451526392413,
       "bandwidth": 10.0
     }
   },
   {
-    "timestamp": "2026-02-09 11:31:58",
+    "timestamp": "2026-03-10 15:00:55",
+    "node_id": 291,
+    "attack_type": "unknown",
+    "confidence": "39.29%",
+    "features": {
+      "pdr": 1.0541920538065657,
+      "throughput": 93.99464349336745,
+      "packet_drop_rate": 0.0,
+      "bandwidth": 92.30697927316672
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:55",
+    "node_id": 67,
+    "attack_type": "blackhole",
+    "confidence": "0.07%",
+    "features": {
+      "pdr": -0.15188131475449715,
+      "throughput": 16.204586447641333,
+      "packet_drop_rate": 1.0,
+      "bandwidth": 77.94983026333735
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:55",
     "node_id": 154,
-    "attack_type": "grayhole",
-    "confidence": "1.23%",
-    "features": {
-      "pdr": 0.39147539294245126,
-      "throughput": 24.88305206674242,
-      "packet_drop_rate": 0.5754996332322447,
-      "bandwidth": 10.0
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:58",
-    "node_id": 61,
     "attack_type": "sinkhole",
-    "confidence": "4.68%",
+    "confidence": "3.99%",
     "features": {
-      "pdr": 1.0695052091772141,
-      "throughput": 20.885289039528136,
-      "packet_drop_rate": 0.0,
-      "bandwidth": 40.56706026302601
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:58",
-    "node_id": 18,
-    "attack_type": "unknown",
-    "confidence": "5.25%",
-    "features": {
-      "pdr": 0.6910972100854105,
-      "throughput": 29.52521331001862,
-      "packet_drop_rate": 0.26785590878491317,
+      "pdr": 0.5557801563179186,
+      "throughput": 24.954522464517776,
+      "packet_drop_rate": 0.36154258080326324,
       "bandwidth": 10.0
     }
   },
   {
-    "timestamp": "2026-02-09 11:31:58",
+    "timestamp": "2026-03-10 15:00:55",
+    "node_id": 61,
+    "attack_type": "blackhole",
+    "confidence": "1.15%",
+    "features": {
+      "pdr": 0.053757310999498875,
+      "throughput": 20.822490305833295,
+      "packet_drop_rate": 0.9788670240188909,
+      "bandwidth": 10.0
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:55",
+    "node_id": 18,
+    "attack_type": "blackhole",
+    "confidence": "0.30%",
+    "features": {
+      "pdr": -0.06507175277663879,
+      "throughput": 29.54386770780531,
+      "packet_drop_rate": 1.0,
+      "bandwidth": 105.33489203838309
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:55",
+    "node_id": 1999,
+    "attack_type": "grayhole",
+    "confidence": "28.94%",
+    "features": {
+      "pdr": 0.5472401048732398,
+      "throughput": 68.88087763670703,
+      "packet_drop_rate": 0.4885753204995946,
+      "bandwidth": 120.42098415624469
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:55",
+    "node_id": 162,
+    "attack_type": "blackhole",
+    "confidence": "0.35%",
+    "features": {
+      "pdr": 0.09151413594072007,
+      "throughput": 22.377018934819937,
+      "packet_drop_rate": 0.8653493906880252,
+      "bandwidth": 98.79975356657637
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:55",
     "node_id": 167,
     "attack_type": "blackhole",
-    "confidence": "7.56%",
+    "confidence": "1.25%",
     "features": {
-      "pdr": -0.22055458317662036,
-      "throughput": 8.34241661510355,
+      "pdr": -0.4048500028178078,
+      "throughput": 8.979112891315031,
       "packet_drop_rate": 1.0,
-      "bandwidth": 10.0
+      "bandwidth": 26.985065265411464
     }
   },
   {
-    "timestamp": "2026-02-09 11:31:58",
+    "timestamp": "2026-03-10 15:00:55",
     "node_id": 143,
-    "attack_type": "blackhole",
-    "confidence": "45.62%",
-    "features": {
-      "pdr": -0.1854940732647911,
-      "throughput": 23.755057354379463,
-      "packet_drop_rate": 1.0,
-      "bandwidth": 29.11674473546829
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:58",
-    "node_id": 2520,
-    "attack_type": "unknown",
-    "confidence": "27.57%",
-    "features": {
-      "pdr": 0.7677880781416838,
-      "throughput": 86.5224780670137,
-      "packet_drop_rate": 0.21238274003089158,
-      "bandwidth": 138.6033033351154
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:58",
-    "node_id": 209,
     "attack_type": "sinkhole",
-    "confidence": "4.60%",
+    "confidence": "20.41%",
     "features": {
-      "pdr": 0.6931172930272737,
-      "throughput": 3.15988039136815,
-      "packet_drop_rate": 0.25240293700686667,
+      "pdr": 0.6365456544923759,
+      "throughput": 24.41144409710574,
+      "packet_drop_rate": 0.32329052969858874,
       "bandwidth": 10.0
     }
   },
   {
-    "timestamp": "2026-02-09 11:31:58",
+    "timestamp": "2026-03-10 15:00:55",
+    "node_id": 209,
+    "attack_type": "blackhole",
+    "confidence": "1.15%",
+    "features": {
+      "pdr": 0.11228347629179207,
+      "throughput": 2.935549993645482,
+      "packet_drop_rate": 0.8469743341315653,
+      "bandwidth": 10.0
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:55",
     "node_id": 57,
-    "attack_type": "grayhole",
-    "confidence": "2.82%",
+    "attack_type": "blackhole",
+    "confidence": "1.75%",
     "features": {
-      "pdr": 0.5433511374271887,
-      "throughput": 5.732752935950986,
-      "packet_drop_rate": 0.4045210796904276,
-      "bandwidth": 48.855798680962096
+      "pdr": -0.2918728702222129,
+      "throughput": 5.628324586373365,
+      "packet_drop_rate": 1.0,
+      "bandwidth": 10.0
     }
   },
   {
-    "timestamp": "2026-02-09 11:31:58",
+    "timestamp": "2026-03-10 15:00:55",
     "node_id": 156,
     "attack_type": "blackhole",
-    "confidence": "13.13%",
+    "confidence": "1.68%",
     "features": {
-      "pdr": -0.25369041191141006,
-      "throughput": 0.17154102202000882,
-      "packet_drop_rate": 1.0,
-      "bandwidth": 10.0
+      "pdr": 0.1248683191928791,
+      "throughput": 0.326039437732784,
+      "packet_drop_rate": 0.8306454513788162,
+      "bandwidth": 56.553514517172175
     }
   },
   {
-    "timestamp": "2026-02-09 11:31:58",
+    "timestamp": "2026-03-10 15:00:55",
     "node_id": 175,
-    "attack_type": "blackhole",
-    "confidence": "1.36%",
-    "features": {
-      "pdr": 0.28435887011502325,
-      "throughput": 1.253734605350537,
-      "packet_drop_rate": 0.700732998559776,
-      "bandwidth": 10.0
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:58",
-    "node_id": 75,
-    "attack_type": "blackhole",
-    "confidence": "1.26%",
-    "features": {
-      "pdr": 0.2551573361997667,
-      "throughput": 16.951716962671302,
-      "packet_drop_rate": 0.740215897986181,
-      "bandwidth": 10.0
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:58",
-    "node_id": 140,
-    "attack_type": "blackhole",
-    "confidence": "7.63%",
-    "features": {
-      "pdr": -0.19376253755266692,
-      "throughput": 16.11069779519078,
-      "packet_drop_rate": 1.0,
-      "bandwidth": 10.0
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:58",
-    "node_id": 8,
-    "attack_type": "grayhole",
-    "confidence": "0.91%",
-    "features": {
-      "pdr": 0.39014940282306126,
-      "throughput": 23.63479159369823,
-      "packet_drop_rate": 0.5587557129643098,
-      "bandwidth": 76.31091831005455
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:58",
-    "node_id": 162,
-    "attack_type": "blackhole",
-    "confidence": "0.88%",
-    "features": {
-      "pdr": 0.04829085635523016,
-      "throughput": 21.776824076033126,
-      "packet_drop_rate": 0.9287024775823559,
-      "bandwidth": 74.85900247553406
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:58",
-    "node_id": 103,
-    "attack_type": "blackhole",
-    "confidence": "54.77%",
-    "features": {
-      "pdr": -0.20214450718128654,
-      "throughput": 12.48513342178275,
-      "packet_drop_rate": 1.0,
-      "bandwidth": 48.02978453613946
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:58",
-    "node_id": 148,
-    "attack_type": "blackhole",
-    "confidence": "17.67%",
-    "features": {
-      "pdr": -0.2885130084244212,
-      "throughput": 8.418851507227254,
-      "packet_drop_rate": 1.0,
-      "bandwidth": 10.0
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:58",
-    "node_id": 71,
-    "attack_type": "blackhole",
-    "confidence": "1.70%",
-    "features": {
-      "pdr": -0.1263338549961527,
-      "throughput": 0.622617551720928,
-      "packet_drop_rate": 1.0,
-      "bandwidth": 30.490435835972356
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:58",
-    "node_id": 67,
-    "attack_type": "grayhole",
-    "confidence": "1.95%",
-    "features": {
-      "pdr": 0.3460955291569887,
-      "throughput": 15.259912015431103,
-      "packet_drop_rate": 0.6073970294602028,
-      "bandwidth": 26.881821695850828
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:58",
-    "node_id": 135,
-    "attack_type": "grayhole",
-    "confidence": "0.40%",
-    "features": {
-      "pdr": 0.33053663065213423,
-      "throughput": 24.91493331180832,
-      "packet_drop_rate": 0.77714888188133,
-      "bandwidth": 10.0
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:58",
-    "node_id": 1940,
-    "attack_type": "unknown",
-    "confidence": "21.17%",
-    "features": {
-      "pdr": 1.2441774314223801,
-      "throughput": 93.4728758111272,
-      "packet_drop_rate": 0.0,
-      "bandwidth": 138.3533714058027
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:58",
-    "node_id": 203,
-    "attack_type": "blackhole",
-    "confidence": "0.65%",
-    "features": {
-      "pdr": 0.051851576509804084,
-      "throughput": 10.020286292108086,
-      "packet_drop_rate": 0.8976858653293489,
-      "bandwidth": 10.0
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:58",
-    "node_id": 97,
-    "attack_type": "grayhole",
-    "confidence": "0.72%",
-    "features": {
-      "pdr": 0.5163708720083108,
-      "throughput": 13.236883116205814,
-      "packet_drop_rate": 0.4205573716218451,
-      "bandwidth": 60.08307794849433
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:58",
-    "node_id": 124,
-    "attack_type": "blackhole",
-    "confidence": "0.29%",
-    "features": {
-      "pdr": 0.183376412222647,
-      "throughput": 14.952235526756677,
-      "packet_drop_rate": 0.8349109369345143,
-      "bandwidth": 10.0
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:58",
-    "node_id": 61,
-    "attack_type": "blackhole",
-    "confidence": "1.09%",
-    "features": {
-      "pdr": 0.18057252796456102,
-      "throughput": 21.51968041078364,
-      "packet_drop_rate": 0.7741437086951277,
-      "bandwidth": 10.0
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:58",
-    "node_id": 167,
-    "attack_type": "grayhole",
-    "confidence": "0.28%",
-    "features": {
-      "pdr": 0.443764721696674,
-      "throughput": 8.931621913084367,
-      "packet_drop_rate": 0.506089045574524,
-      "bandwidth": 10.0
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:58",
-    "node_id": 1907,
-    "attack_type": "unknown",
-    "confidence": "4.90%",
-    "features": {
-      "pdr": 0.6184395625329356,
-      "throughput": 57.92876165120746,
-      "packet_drop_rate": 0.3059910221019291,
-      "bandwidth": 82.95599540674095
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:58",
-    "node_id": 120,
-    "attack_type": "sinkhole",
-    "confidence": "6.95%",
-    "features": {
-      "pdr": 0.661300246333639,
-      "throughput": 16.618555096039028,
-      "packet_drop_rate": 0.3863017068365959,
-      "bandwidth": 42.17099217752203
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:58",
-    "node_id": 133,
-    "attack_type": "blackhole",
-    "confidence": "4.85%",
-    "features": {
-      "pdr": -0.3513904509067288,
-      "throughput": 25.15881683337887,
-      "packet_drop_rate": 1.0,
-      "bandwidth": 76.49582625297163
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:58",
-    "node_id": 175,
-    "attack_type": "blackhole",
-    "confidence": "2.76%",
-    "features": {
-      "pdr": -0.10115845780293609,
-      "throughput": 1.362765961276007,
-      "packet_drop_rate": 1.0,
-      "bandwidth": 10.0
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:58",
-    "node_id": 209,
-    "attack_type": "sinkhole",
-    "confidence": "4.83%",
-    "features": {
-      "pdr": 0.7662793810608313,
-      "throughput": 3.18023711345031,
-      "packet_drop_rate": 0.1473021676498562,
-      "bandwidth": 10.0
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:58",
-    "node_id": 61,
-    "attack_type": "sinkhole",
-    "confidence": "2.66%",
-    "features": {
-      "pdr": 0.2856857878707333,
-      "throughput": 20.59427392992964,
-      "packet_drop_rate": 0.6633335834265266,
-      "bandwidth": 26.3001487798372
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:58",
-    "node_id": 1495,
-    "attack_type": "grayhole",
-    "confidence": "8.92%",
-    "features": {
-      "pdr": 0.5542151722634678,
-      "throughput": 71.70775134486531,
-      "packet_drop_rate": 0.4557409843256359,
-      "bandwidth": 75.86149082884137
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:58",
-    "node_id": 148,
-    "attack_type": "blackhole",
-    "confidence": "0.99%",
-    "features": {
-      "pdr": 0.2381750319972059,
-      "throughput": 7.459763341501614,
-      "packet_drop_rate": 0.7559629846913886,
-      "bandwidth": 10.0
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:58",
-    "node_id": 641,
-    "attack_type": "blackhole",
-    "confidence": "41.69%",
-    "features": {
-      "pdr": 0.2681600019606024,
-      "throughput": 73.54016772506006,
-      "packet_drop_rate": 0.7584225997248919,
-      "bandwidth": 137.02482797433746
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:58",
-    "node_id": 23,
-    "attack_type": "grayhole",
-    "confidence": "1.01%",
-    "features": {
-      "pdr": 0.37853296187787344,
-      "throughput": 7.064118463062281,
-      "packet_drop_rate": 0.6121374770504632,
-      "bandwidth": 93.51237673092008
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:58",
-    "node_id": 162,
-    "attack_type": "blackhole",
-    "confidence": "6.14%",
-    "features": {
-      "pdr": -0.0048060114593614645,
-      "throughput": 21.714153320356004,
-      "packet_drop_rate": 0.9546872105197367,
-      "bandwidth": 47.07238766722165
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:58",
-    "node_id": 634,
-    "attack_type": "unknown",
-    "confidence": "62.71%",
-    "features": {
-      "pdr": 0.7496599499136443,
-      "throughput": 99.65148306506863,
-      "packet_drop_rate": 0.19110858074708517,
-      "bandwidth": 133.1885680614398
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:58",
-    "node_id": 107,
-    "attack_type": "blackhole",
-    "confidence": "0.77%",
-    "features": {
-      "pdr": 0.17893701736400314,
-      "throughput": 5.122648771261154,
-      "packet_drop_rate": 0.8442527240896541,
-      "bandwidth": 109.00216010382839
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:58",
-    "node_id": 119,
-    "attack_type": "blackhole",
-    "confidence": "2.37%",
-    "features": {
-      "pdr": 0.1295272227654567,
-      "throughput": 23.784030819243544,
-      "packet_drop_rate": 0.9445092241828325,
-      "bandwidth": 10.0
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:58",
-    "node_id": 78,
-    "attack_type": "blackhole",
-    "confidence": "2.89%",
-    "features": {
-      "pdr": -0.11038837435169432,
-      "throughput": 8.188493584403064,
-      "packet_drop_rate": 1.0,
-      "bandwidth": 45.08626483630941
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:58",
-    "node_id": 172,
-    "attack_type": "blackhole",
-    "confidence": "16.95%",
-    "features": {
-      "pdr": 0.11373406346321599,
-      "throughput": 28.14014552615092,
-      "packet_drop_rate": 0.9003474595217635,
-      "bandwidth": 24.619974390033487
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:58",
-    "node_id": 162,
-    "attack_type": "blackhole",
-    "confidence": "3.03%",
-    "features": {
-      "pdr": 0.06915584438366984,
-      "throughput": 22.319254065026144,
-      "packet_drop_rate": 0.8651921451126894,
-      "bandwidth": 156.59324768274843
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:58",
-    "node_id": 1565,
-    "attack_type": "unknown",
-    "confidence": "32.06%",
-    "features": {
-      "pdr": 0.8390424405456859,
-      "throughput": 86.73186620423782,
-      "packet_drop_rate": 0.09681624159358423,
-      "bandwidth": 231.46062447373043
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:58",
-    "node_id": 77,
-    "attack_type": "blackhole",
-    "confidence": "1.21%",
-    "features": {
-      "pdr": 0.12042061272229312,
-      "throughput": 8.372607196465097,
-      "packet_drop_rate": 0.8964401812497974,
-      "bandwidth": 10.0
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:58",
-    "node_id": 1658,
-    "attack_type": "unknown",
-    "confidence": "18.01%",
-    "features": {
-      "pdr": 1.459052573298284,
-      "throughput": 92.26819136393568,
-      "packet_drop_rate": 0.0,
-      "bandwidth": 53.6556643899789
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:58",
-    "node_id": 1687,
-    "attack_type": "grayhole",
-    "confidence": "13.84%",
-    "features": {
-      "pdr": 0.5630693501621056,
-      "throughput": 99.63815877034932,
-      "packet_drop_rate": 0.44781761573412177,
-      "bandwidth": 95.63982732398885
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:58",
-    "node_id": 273,
-    "attack_type": "unknown",
-    "confidence": "16.17%",
-    "features": {
-      "pdr": 0.9451361591694283,
-      "throughput": 89.31919824698129,
-      "packet_drop_rate": 0.02295357720938123,
-      "bandwidth": 267.4213238576652
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:58",
-    "node_id": 839,
-    "attack_type": "unknown",
-    "confidence": "40.86%",
-    "features": {
-      "pdr": 0.8939211288543029,
-      "throughput": 64.73777377550115,
-      "packet_drop_rate": 0.18065263367466988,
-      "bandwidth": 82.59184266178754
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:58",
-    "node_id": 2534,
-    "attack_type": "grayhole",
-    "confidence": "15.62%",
-    "features": {
-      "pdr": 0.5760134626855444,
-      "throughput": 74.73487820923177,
-      "packet_drop_rate": 0.5012936475503579,
-      "bandwidth": 75.91541807131728
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:58",
-    "node_id": 1741,
-    "attack_type": "unknown",
-    "confidence": "22.03%",
-    "features": {
-      "pdr": 1.2119682816750952,
-      "throughput": 88.77322526739809,
-      "packet_drop_rate": 0.0,
-      "bandwidth": 94.36901025228511
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:58",
-    "node_id": 180,
-    "attack_type": "blackhole",
-    "confidence": "1.13%",
-    "features": {
-      "pdr": 0.2281916810366251,
-      "throughput": 0.7911757007339755,
-      "packet_drop_rate": 0.7803917783900093,
-      "bandwidth": 10.0
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:58",
-    "node_id": 209,
-    "attack_type": "blackhole",
-    "confidence": "1.00%",
-    "features": {
-      "pdr": -0.16728167777558803,
-      "throughput": 2.830484940624258,
-      "packet_drop_rate": 1.0,
-      "bandwidth": 10.0
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:58",
-    "node_id": 176,
-    "attack_type": "blackhole",
-    "confidence": "0.08%",
-    "features": {
-      "pdr": 0.2212844919209933,
-      "throughput": 11.779624892237234,
-      "packet_drop_rate": 0.7535943969559193,
-      "bandwidth": 177.78406024940875
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:58",
-    "node_id": 160,
-    "attack_type": "sinkhole",
-    "confidence": "6.14%",
-    "features": {
-      "pdr": 0.6522380683635391,
-      "throughput": 6.988979828552231,
-      "packet_drop_rate": 0.3430721775264731,
-      "bandwidth": 10.0
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:59",
-    "node_id": 18,
-    "attack_type": "blackhole",
-    "confidence": "2.59%",
-    "features": {
-      "pdr": 0.15393756524992808,
-      "throughput": 29.52996272716691,
-      "packet_drop_rate": 0.7430094002142136,
-      "bandwidth": 17.158153978305293
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:59",
-    "node_id": 1751,
-    "attack_type": "unknown",
-    "confidence": "15.25%",
-    "features": {
-      "pdr": 0.9767304119764529,
-      "throughput": 73.46068413175927,
-      "packet_drop_rate": 0.0992799341825697,
-      "bandwidth": 202.01774498476607
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:59",
-    "node_id": 204,
-    "attack_type": "blackhole",
-    "confidence": "0.36%",
-    "features": {
-      "pdr": 0.058974853692329174,
-      "throughput": 11.973272801202,
-      "packet_drop_rate": 0.9063272798476927,
-      "bandwidth": 10.0
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:59",
-    "node_id": 83,
-    "attack_type": "grayhole",
-    "confidence": "2.94%",
-    "features": {
-      "pdr": 0.3755055689496051,
-      "throughput": 10.257828181060358,
-      "packet_drop_rate": 0.6215479905020491,
-      "bandwidth": 31.748074533514462
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:59",
-    "node_id": 208,
-    "attack_type": "grayhole",
-    "confidence": "0.87%",
-    "features": {
-      "pdr": 0.4295424068266268,
-      "throughput": 6.046615326412429,
-      "packet_drop_rate": 0.6109022102183111,
-      "bandwidth": 14.527939626049754
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:59",
-    "node_id": 33,
-    "attack_type": "grayhole",
-    "confidence": "1.28%",
-    "features": {
-      "pdr": 0.5060927458138323,
-      "throughput": 28.12546079750165,
-      "packet_drop_rate": 0.48227770733001274,
-      "bandwidth": 10.0
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:59",
-    "node_id": 203,
-    "attack_type": "blackhole",
-    "confidence": "0.34%",
-    "features": {
-      "pdr": 0.03448225663331572,
-      "throughput": 10.684768264101898,
-      "packet_drop_rate": 1.0,
-      "bandwidth": 112.31557323861985
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:59",
-    "node_id": 78,
-    "attack_type": "grayhole",
-    "confidence": "2.12%",
-    "features": {
-      "pdr": 0.36594240430007463,
-      "throughput": 8.035551467838133,
-      "packet_drop_rate": 0.592533952746205,
-      "bandwidth": 34.52969672420725
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:59",
-    "node_id": 524,
-    "attack_type": "unknown",
-    "confidence": "55.80%",
-    "features": {
-      "pdr": 1.062911846773395,
-      "throughput": 80.84128857598634,
-      "packet_drop_rate": 0.0,
-      "bandwidth": 97.58523722303507
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:59",
-    "node_id": 140,
-    "attack_type": "blackhole",
-    "confidence": "0.37%",
-    "features": {
-      "pdr": 0.2706589107511364,
-      "throughput": 15.904232279602995,
-      "packet_drop_rate": 0.7678514437522193,
-      "bandwidth": 10.0
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:59",
-    "node_id": 82,
-    "attack_type": "blackhole",
-    "confidence": "0.75%",
-    "features": {
-      "pdr": 0.08291102604208961,
-      "throughput": 24.847673279154634,
-      "packet_drop_rate": 0.9401533508846678,
-      "bandwidth": 10.0
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:59",
-    "node_id": 77,
-    "attack_type": "sinkhole",
-    "confidence": "1.96%",
-    "features": {
-      "pdr": 0.7478007746366597,
-      "throughput": 8.332549862914192,
-      "packet_drop_rate": 0.18954738239836638,
-      "bandwidth": 55.573070871926085
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:59",
-    "node_id": 67,
-    "attack_type": "blackhole",
-    "confidence": "0.26%",
-    "features": {
-      "pdr": 0.1485722926980761,
-      "throughput": 15.596370416456972,
-      "packet_drop_rate": 0.8616547881778855,
-      "bandwidth": 10.0
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:59",
-    "node_id": 84,
-    "attack_type": "blackhole",
-    "confidence": "0.48%",
-    "features": {
-      "pdr": 0.23983662728259883,
-      "throughput": 25.60333061162257,
-      "packet_drop_rate": 0.8218239291133494,
-      "bandwidth": 47.32523458342393
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:59",
-    "node_id": 103,
-    "attack_type": "unknown",
-    "confidence": "14.65%",
-    "features": {
-      "pdr": 0.7214852220649395,
-      "throughput": 12.397487717901745,
-      "packet_drop_rate": 0.19400587556354382,
-      "bandwidth": 34.28989184544085
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:59",
-    "node_id": 205,
-    "attack_type": "sinkhole",
-    "confidence": "3.89%",
-    "features": {
-      "pdr": 0.8781693647590432,
-      "throughput": 15.189620420934034,
-      "packet_drop_rate": 0.2321300335900563,
-      "bandwidth": 40.75839739336043
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:59",
-    "node_id": 97,
-    "attack_type": "sinkhole",
-    "confidence": "8.93%",
-    "features": {
-      "pdr": 0.922118761722055,
-      "throughput": 13.743845214834018,
-      "packet_drop_rate": 0.04188224557683232,
-      "bandwidth": 10.0
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:59",
-    "node_id": 156,
-    "attack_type": "blackhole",
-    "confidence": "0.78%",
-    "features": {
-      "pdr": -0.06833199518227946,
-      "throughput": 0.1008279347638533,
-      "packet_drop_rate": 0.9837012674605193,
-      "bandwidth": 10.0
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:59",
-    "node_id": 1608,
-    "attack_type": "unknown",
-    "confidence": "32.84%",
-    "features": {
-      "pdr": 1.3664075828034854,
-      "throughput": 97.55992671829493,
-      "packet_drop_rate": 0.0,
-      "bandwidth": 111.90015129023084
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:59",
-    "node_id": 203,
-    "attack_type": "blackhole",
-    "confidence": "16.93%",
-    "features": {
-      "pdr": -0.22698567727918462,
-      "throughput": 10.056099968009026,
-      "packet_drop_rate": 1.0,
-      "bandwidth": 10.0
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:59",
-    "node_id": 1093,
-    "attack_type": "unknown",
-    "confidence": "7.10%",
-    "features": {
-      "pdr": 0.6877251337216856,
-      "throughput": 63.75010568648493,
-      "packet_drop_rate": 0.28101366928823546,
-      "bandwidth": 76.2472076048086
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:59",
-    "node_id": 138,
-    "attack_type": "blackhole",
-    "confidence": "0.45%",
-    "features": {
-      "pdr": 0.06914772109617572,
-      "throughput": 6.858634911216863,
-      "packet_drop_rate": 0.9633620368852139,
-      "bandwidth": 85.36585380663458
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:59",
-    "node_id": 87,
-    "attack_type": "blackhole",
-    "confidence": "0.31%",
-    "features": {
-      "pdr": 0.1271722451342068,
-      "throughput": 24.69047430489947,
-      "packet_drop_rate": 0.8660335889480973,
-      "bandwidth": 72.11539518181802
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:59",
-    "node_id": 5,
-    "attack_type": "unknown",
-    "confidence": "3.25%",
-    "features": {
-      "pdr": 0.8859363142156459,
-      "throughput": 11.669180479119936,
-      "packet_drop_rate": 0.10488041380560723,
-      "bandwidth": 51.55593696189291
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:59",
-    "node_id": 31,
-    "attack_type": "selective_forwarding",
-    "confidence": "0.41%",
-    "features": {
-      "pdr": 0.24418553256113423,
-      "throughput": 15.85734995341208,
-      "packet_drop_rate": 0.6864951488968172,
-      "bandwidth": 50.79997898496694
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:59",
-    "node_id": 131,
-    "attack_type": "grayhole",
-    "confidence": "4.52%",
-    "features": {
-      "pdr": 0.4170347521403637,
-      "throughput": 16.237878507839067,
-      "packet_drop_rate": 0.5633835464656607,
-      "bandwidth": 17.681708594946567
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:59",
-    "node_id": 135,
-    "attack_type": "grayhole",
-    "confidence": "0.80%",
-    "features": {
-      "pdr": 0.5108701383243093,
-      "throughput": 24.6739856359502,
-      "packet_drop_rate": 0.49484543293200745,
-      "bandwidth": 14.389638734160442
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:59",
-    "node_id": 23,
-    "attack_type": "blackhole",
-    "confidence": "0.60%",
-    "features": {
-      "pdr": 0.14341180734925085,
-      "throughput": 7.24145729413844,
-      "packet_drop_rate": 0.7364585047647957,
-      "bandwidth": 10.0
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:59",
-    "node_id": 1811,
-    "attack_type": "unknown",
-    "confidence": "15.45%",
-    "features": {
-      "pdr": 0.7215903932705157,
-      "throughput": 55.606878442579344,
-      "packet_drop_rate": 0.17839502208420394,
-      "bandwidth": 50.975499967454176
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:59",
-    "node_id": 120,
-    "attack_type": "grayhole",
-    "confidence": "1.94%",
-    "features": {
-      "pdr": 0.37867934949714543,
-      "throughput": 17.07422117294745,
-      "packet_drop_rate": 0.6407506787224871,
-      "bandwidth": 43.34567414937219
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:59",
-    "node_id": 139,
-    "attack_type": "grayhole",
-    "confidence": "1.51%",
-    "features": {
-      "pdr": 0.5491783577578069,
-      "throughput": 24.819222615045003,
-      "packet_drop_rate": 0.492765316414943,
-      "bandwidth": 116.27628459143324
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:59",
-    "node_id": 135,
-    "attack_type": "sinkhole",
-    "confidence": "1.07%",
-    "features": {
-      "pdr": 0.2605229035186418,
-      "throughput": 24.788417693337138,
-      "packet_drop_rate": 0.6957150087788456,
-      "bandwidth": 30.488574888415233
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:59",
-    "node_id": 133,
     "attack_type": "blackhole",
     "confidence": "4.35%",
     "features": {
-      "pdr": -0.219171604248336,
-      "throughput": 24.971174269056267,
-      "packet_drop_rate": 1.0,
-      "bandwidth": 74.8837523184636
+      "pdr": 0.2215200370317897,
+      "throughput": 1.7575122008382333,
+      "packet_drop_rate": 0.7702152402815927,
+      "bandwidth": 10.0
     }
   },
   {
-    "timestamp": "2026-02-09 11:31:59",
-    "node_id": 131,
+    "timestamp": "2026-03-10 15:00:55",
+    "node_id": 75,
     "attack_type": "blackhole",
-    "confidence": "61.33%",
+    "confidence": "0.26%",
     "features": {
-      "pdr": 0.10210801362559564,
-      "throughput": 16.60636388529949,
-      "packet_drop_rate": 0.7828414853580606,
-      "bandwidth": 18.324971774941005
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:59",
-    "node_id": 139,
-    "attack_type": "blackhole",
-    "confidence": "4.08%",
-    "features": {
-      "pdr": -0.21098394836446036,
-      "throughput": 25.03200467804159,
+      "pdr": -0.04385476541278094,
+      "throughput": 16.504800913124022,
       "packet_drop_rate": 1.0,
-      "bandwidth": 115.00515234988782
+      "bandwidth": 47.85747489671198
     }
   },
   {
-    "timestamp": "2026-02-09 11:31:59",
-    "node_id": 98,
+    "timestamp": "2026-03-10 15:00:55",
+    "node_id": 1059,
+    "attack_type": "unknown",
+    "confidence": "23.05%",
+    "features": {
+      "pdr": 0.7774303543777996,
+      "throughput": 95.58656065294011,
+      "packet_drop_rate": 0.26869950496883843,
+      "bandwidth": 136.8403933778917
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:55",
+    "node_id": 754,
+    "attack_type": "unknown",
+    "confidence": "22.29%",
+    "features": {
+      "pdr": 0.7871641221890249,
+      "throughput": 95.85343840152176,
+      "packet_drop_rate": 0.2075406907591422,
+      "bandwidth": 118.45481767783353
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:55",
+    "node_id": 140,
+    "attack_type": "blackhole",
+    "confidence": "4.57%",
+    "features": {
+      "pdr": -0.32465059922821504,
+      "throughput": 15.655704516655993,
+      "packet_drop_rate": 1.0,
+      "bandwidth": 39.370115530106354
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:55",
+    "node_id": 2221,
+    "attack_type": "unknown",
+    "confidence": "30.88%",
+    "features": {
+      "pdr": 1.0848168499226132,
+      "throughput": 71.0114609209679,
+      "packet_drop_rate": 0.0,
+      "bandwidth": 43.738577165645886
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:55",
+    "node_id": 162,
+    "attack_type": "blackhole",
+    "confidence": "0.16%",
+    "features": {
+      "pdr": -0.24014925079346539,
+      "throughput": 21.92851419602068,
+      "packet_drop_rate": 1.0,
+      "bandwidth": 98.50638747661574
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:55",
+    "node_id": 103,
+    "attack_type": "blackhole",
+    "confidence": "0.66%",
+    "features": {
+      "pdr": -0.004345548735868954,
+      "throughput": 12.731519683976378,
+      "packet_drop_rate": 1.0,
+      "bandwidth": 10.0
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:55",
+    "node_id": 148,
+    "attack_type": "blackhole",
+    "confidence": "0.73%",
+    "features": {
+      "pdr": -0.3094631174591804,
+      "throughput": 7.995962742830688,
+      "packet_drop_rate": 1.0,
+      "bandwidth": 41.78902688778531
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:55",
+    "node_id": 71,
+    "attack_type": "blackhole",
+    "confidence": "0.79%",
+    "features": {
+      "pdr": -0.4053077613478656,
+      "throughput": 0.4198203441565088,
+      "packet_drop_rate": 1.0,
+      "bandwidth": 10.0
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:55",
+    "node_id": 67,
+    "attack_type": "selective_forwarding",
+    "confidence": "2.84%",
+    "features": {
+      "pdr": 0.2523580571391726,
+      "throughput": 15.520296029101917,
+      "packet_drop_rate": 0.6894206526591631,
+      "bandwidth": 10.0
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:55",
+    "node_id": 135,
+    "attack_type": "blackhole",
+    "confidence": "1.52%",
+    "features": {
+      "pdr": 0.08166609373565505,
+      "throughput": 24.308136365677115,
+      "packet_drop_rate": 0.9112128666672424,
+      "bandwidth": 10.0
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:55",
+    "node_id": 2132,
+    "attack_type": "unknown",
+    "confidence": "33.47%",
+    "features": {
+      "pdr": 1.340379071896041,
+      "throughput": 78.43546913906994,
+      "packet_drop_rate": 0.0,
+      "bandwidth": 105.3211447084084
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:55",
+    "node_id": 1778,
+    "attack_type": "unknown",
+    "confidence": "23.79%",
+    "features": {
+      "pdr": 1.0534641307778954,
+      "throughput": 57.885249697652014,
+      "packet_drop_rate": 0.0,
+      "bandwidth": 176.46362482927657
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:55",
+    "node_id": 203,
+    "attack_type": "blackhole",
+    "confidence": "31.38%",
+    "features": {
+      "pdr": 0.1611958799833828,
+      "throughput": 10.434405285185466,
+      "packet_drop_rate": 0.714651924319252,
+      "bandwidth": 46.67905578316713
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:55",
+    "node_id": 97,
+    "attack_type": "grayhole",
+    "confidence": "0.53%",
+    "features": {
+      "pdr": 0.3470325599960013,
+      "throughput": 13.466834299930149,
+      "packet_drop_rate": 0.6356170086804244,
+      "bandwidth": 13.33288584356588
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:55",
+    "node_id": 124,
+    "attack_type": "grayhole",
+    "confidence": "0.32%",
+    "features": {
+      "pdr": 0.46347103630091135,
+      "throughput": 15.21771814100787,
+      "packet_drop_rate": 0.4800343363739453,
+      "bandwidth": 10.0
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:55",
+    "node_id": 61,
     "attack_type": "sinkhole",
-    "confidence": "5.04%",
+    "confidence": "9.53%",
     "features": {
-      "pdr": 0.6513532943713283,
-      "throughput": 10.539752487621259,
-      "packet_drop_rate": 0.34390104156959633,
+      "pdr": 0.7268517374229901,
+      "throughput": 20.775653119130993,
+      "packet_drop_rate": 0.3064646122144321,
       "bandwidth": 10.0
     }
   },
   {
-    "timestamp": "2026-02-09 11:31:59",
-    "node_id": 77,
-    "attack_type": "grayhole",
-    "confidence": "0.42%",
+    "timestamp": "2026-03-10 15:00:55",
+    "node_id": 167,
+    "attack_type": "blackhole",
+    "confidence": "3.46%",
     "features": {
-      "pdr": 0.49869045928354383,
-      "throughput": 8.332398445942694,
-      "packet_drop_rate": 0.5025607805965832,
-      "bandwidth": 60.099418171282274
-    }
-  },
-  {
-    "timestamp": "2026-02-09 11:31:59",
-    "node_id": 77,
-    "attack_type": "grayhole",
-    "confidence": "0.85%",
-    "features": {
-      "pdr": 0.46741950688339634,
-      "throughput": 8.412188321326326,
-      "packet_drop_rate": 0.563272619093894,
+      "pdr": 0.2073154528291059,
+      "throughput": 8.565619060926043,
+      "packet_drop_rate": 0.802631770155637,
       "bandwidth": 10.0
     }
   },
   {
-    "timestamp": "2026-02-09 11:31:59",
+    "timestamp": "2026-03-10 15:00:55",
+    "node_id": 120,
+    "attack_type": "blackhole",
+    "confidence": "0.95%",
+    "features": {
+      "pdr": 0.041619405755567135,
+      "throughput": 16.705496302492598,
+      "packet_drop_rate": 1.0,
+      "bandwidth": 22.979049539915728
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:55",
+    "node_id": 175,
+    "attack_type": "blackhole",
+    "confidence": "7.82%",
+    "features": {
+      "pdr": 0.15762792753567373,
+      "throughput": 1.2620774932865422,
+      "packet_drop_rate": 0.851162270811959,
+      "bandwidth": 10.0
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:55",
+    "node_id": 209,
+    "attack_type": "blackhole",
+    "confidence": "2.72%",
+    "features": {
+      "pdr": 0.24781712418297652,
+      "throughput": 3.20495278712778,
+      "packet_drop_rate": 0.8108954248490634,
+      "bandwidth": 10.0
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:55",
+    "node_id": 61,
+    "attack_type": "sinkhole",
+    "confidence": "7.44%",
+    "features": {
+      "pdr": 0.8861162043169368,
+      "throughput": 21.16074685866352,
+      "packet_drop_rate": 0.06974885253096126,
+      "bandwidth": 40.24266975883667
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:55",
+    "node_id": 148,
+    "attack_type": "blackhole",
+    "confidence": "1.09%",
+    "features": {
+      "pdr": -0.3027732833567134,
+      "throughput": 7.831963968661454,
+      "packet_drop_rate": 1.0,
+      "bandwidth": 10.0
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:55",
+    "node_id": 23,
+    "attack_type": "blackhole",
+    "confidence": "1.95%",
+    "features": {
+      "pdr": 0.13705541165507396,
+      "throughput": 7.339329837344485,
+      "packet_drop_rate": 0.8188964367976647,
+      "bandwidth": 10.0
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:56",
+    "node_id": 162,
+    "attack_type": "sinkhole",
+    "confidence": "1.09%",
+    "features": {
+      "pdr": 0.7009250006845755,
+      "throughput": 22.750753019567235,
+      "packet_drop_rate": 0.2307458499662005,
+      "bandwidth": 73.06873841747921
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:56",
+    "node_id": 107,
+    "attack_type": "grayhole",
+    "confidence": "0.95%",
+    "features": {
+      "pdr": 0.31124528725362754,
+      "throughput": 5.007535772081968,
+      "packet_drop_rate": 0.7632229078192567,
+      "bandwidth": 42.63876398939021
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:56",
     "node_id": 119,
     "attack_type": "blackhole",
-    "confidence": "1.56%",
+    "confidence": "0.82%",
     "features": {
-      "pdr": -0.13343153160040291,
-      "throughput": 23.95912653528667,
+      "pdr": 0.1423001674255731,
+      "throughput": 24.083899384782196,
+      "packet_drop_rate": 0.8677195234593731,
+      "bandwidth": 114.31235013106954
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:56",
+    "node_id": 78,
+    "attack_type": "blackhole",
+    "confidence": "1.07%",
+    "features": {
+      "pdr": -0.3893767030224727,
+      "throughput": 8.405728676973222,
       "packet_drop_rate": 1.0,
-      "bandwidth": 86.83668872258852
+      "bandwidth": 59.60532567067384
     }
   },
   {
-    "timestamp": "2026-02-09 11:31:59",
-    "node_id": 75,
+    "timestamp": "2026-03-10 15:00:56",
+    "node_id": 172,
+    "attack_type": "blackhole",
+    "confidence": "24.60%",
+    "features": {
+      "pdr": 0.19261096744873124,
+      "throughput": 28.918496568981073,
+      "packet_drop_rate": 0.8293264105146655,
+      "bandwidth": 71.85853377436703
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:56",
+    "node_id": 35,
     "attack_type": "sinkhole",
-    "confidence": "9.32%",
+    "confidence": "3.56%",
     "features": {
-      "pdr": 0.8685132898477286,
-      "throughput": 16.432581824042828,
-      "packet_drop_rate": 0.14796255003340694,
-      "bandwidth": 119.94634845324615
+      "pdr": 0.6074428434202513,
+      "throughput": 18.530204493744442,
+      "packet_drop_rate": 0.40214156491075903,
+      "bandwidth": 10.0
     }
   },
   {
-    "timestamp": "2026-02-09 11:31:59",
-    "node_id": 87,
+    "timestamp": "2026-03-10 15:00:56",
+    "node_id": 162,
     "attack_type": "blackhole",
-    "confidence": "0.69%",
+    "confidence": "1.09%",
     "features": {
-      "pdr": 0.13756134498322925,
-      "throughput": 24.5692282789062,
-      "packet_drop_rate": 0.9112755077137484,
-      "bandwidth": 40.80422578591307
+      "pdr": 0.2950109551222019,
+      "throughput": 22.35803270191787,
+      "packet_drop_rate": 0.7527946441148138,
+      "bandwidth": 31.582908308320953
     }
   },
   {
-    "timestamp": "2026-02-09 11:31:59",
-    "node_id": 180,
-    "attack_type": "blackhole",
-    "confidence": "2.10%",
+    "timestamp": "2026-03-10 15:00:56",
+    "node_id": 1358,
+    "attack_type": "unknown",
+    "confidence": "32.33%",
     "features": {
-      "pdr": -0.09787781001817752,
-      "throughput": 1.0022081553031497,
+      "pdr": 0.7982111259204978,
+      "throughput": 88.04985601675924,
+      "packet_drop_rate": 0.15522223347831354,
+      "bandwidth": 198.3869563060847
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:56",
+    "node_id": 77,
+    "attack_type": "grayhole",
+    "confidence": "10.82%",
+    "features": {
+      "pdr": 0.4779800264238362,
+      "throughput": 9.086044844127823,
+      "packet_drop_rate": 0.5142754483287892,
+      "bandwidth": 76.64872415448066
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:56",
+    "node_id": 1645,
+    "attack_type": "unknown",
+    "confidence": "29.91%",
+    "features": {
+      "pdr": 0.8177426353212013,
+      "throughput": 89.58950081358773,
+      "packet_drop_rate": 0.18804205504055402,
+      "bandwidth": 214.64645541594993
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:56",
+    "node_id": 198,
+    "attack_type": "blackhole",
+    "confidence": "1.83%",
+    "features": {
+      "pdr": 0.013831691191652937,
+      "throughput": 28.287356698605624,
       "packet_drop_rate": 1.0,
       "bandwidth": 10.0
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:56",
+    "node_id": 1374,
+    "attack_type": "unknown",
+    "confidence": "30.78%",
+    "features": {
+      "pdr": 0.9344725648756843,
+      "throughput": 56.20582349446604,
+      "packet_drop_rate": 0.057337846941321935,
+      "bandwidth": 153.3132988741899
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:56",
+    "node_id": 683,
+    "attack_type": "unknown",
+    "confidence": "28.68%",
+    "features": {
+      "pdr": 0.6816934374893824,
+      "throughput": 81.90357585819153,
+      "packet_drop_rate": 0.32013659443275694,
+      "bandwidth": 69.28626044828607
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:56",
+    "node_id": 547,
+    "attack_type": "unknown",
+    "confidence": "30.26%",
+    "features": {
+      "pdr": 0.751020123303769,
+      "throughput": 64.52388902813038,
+      "packet_drop_rate": 0.2842106542190917,
+      "bandwidth": 106.94528112412773
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:56",
+    "node_id": 180,
+    "attack_type": "grayhole",
+    "confidence": "1.49%",
+    "features": {
+      "pdr": 0.46765280868352077,
+      "throughput": 1.1413880838730426,
+      "packet_drop_rate": 0.5452796154338814,
+      "bandwidth": 24.654243691828878
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:56",
+    "node_id": 209,
+    "attack_type": "blackhole",
+    "confidence": "0.55%",
+    "features": {
+      "pdr": 0.042174335800534535,
+      "throughput": 2.6372289447117616,
+      "packet_drop_rate": 0.9359377986015964,
+      "bandwidth": 40.69543220928383
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:56",
+    "node_id": 176,
+    "attack_type": "grayhole",
+    "confidence": "0.66%",
+    "features": {
+      "pdr": 0.4324554023961249,
+      "throughput": 11.60590949409786,
+      "packet_drop_rate": 0.5638150460756239,
+      "bandwidth": 12.474580902580497
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:56",
+    "node_id": 160,
+    "attack_type": "grayhole",
+    "confidence": "2.89%",
+    "features": {
+      "pdr": 0.5403615003694349,
+      "throughput": 6.1984077217502085,
+      "packet_drop_rate": 0.4717662734937426,
+      "bandwidth": 67.77301537783636
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:56",
+    "node_id": 18,
+    "attack_type": "blackhole",
+    "confidence": "1.61%",
+    "features": {
+      "pdr": 0.0805154569425533,
+      "throughput": 29.46420710391816,
+      "packet_drop_rate": 0.8935364517375614,
+      "bandwidth": 62.73372452878783
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:56",
+    "node_id": 1492,
+    "attack_type": "unknown",
+    "confidence": "18.92%",
+    "features": {
+      "pdr": 0.8321223161937791,
+      "throughput": 68.58621091691712,
+      "packet_drop_rate": 0.2563857267157137,
+      "bandwidth": 194.94369334301263
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:56",
+    "node_id": 204,
+    "attack_type": "blackhole",
+    "confidence": "4.30%",
+    "features": {
+      "pdr": 0.2706722434503446,
+      "throughput": 11.409619350886965,
+      "packet_drop_rate": 0.8007890532228562,
+      "bandwidth": 64.06582601948209
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:56",
+    "node_id": 486,
+    "attack_type": "unknown",
+    "confidence": "24.91%",
+    "features": {
+      "pdr": 0.7694776941628801,
+      "throughput": 87.35887274441896,
+      "packet_drop_rate": 0.29521715355315237,
+      "bandwidth": 222.47037756774523
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:56",
+    "node_id": 83,
+    "attack_type": "blackhole",
+    "confidence": "0.26%",
+    "features": {
+      "pdr": 0.0834108701453729,
+      "throughput": 10.13500560733591,
+      "packet_drop_rate": 0.8749704605291648,
+      "bandwidth": 79.45105534907266
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:56",
+    "node_id": 208,
+    "attack_type": "unknown",
+    "confidence": "21.38%",
+    "features": {
+      "pdr": 0.6471071592392234,
+      "throughput": 5.766244126147513,
+      "packet_drop_rate": 0.39209986617598447,
+      "bandwidth": 10.0
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:56",
+    "node_id": 33,
+    "attack_type": "blackhole",
+    "confidence": "4.47%",
+    "features": {
+      "pdr": 0.2729765941175462,
+      "throughput": 27.51233624733335,
+      "packet_drop_rate": 0.7056276796044816,
+      "bandwidth": 78.1685849348751
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:56",
+    "node_id": 203,
+    "attack_type": "blackhole",
+    "confidence": "3.53%",
+    "features": {
+      "pdr": -0.1477473430802171,
+      "throughput": 10.123440537907864,
+      "packet_drop_rate": 1.0,
+      "bandwidth": 74.71849482439332
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:56",
+    "node_id": 78,
+    "attack_type": "blackhole",
+    "confidence": "1.01%",
+    "features": {
+      "pdr": -0.4260940360616577,
+      "throughput": 8.107753139437628,
+      "packet_drop_rate": 1.0,
+      "bandwidth": 10.0
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:56",
+    "node_id": 1054,
+    "attack_type": "grayhole",
+    "confidence": "25.79%",
+    "features": {
+      "pdr": 0.5763483592416592,
+      "throughput": 73.93613492260361,
+      "packet_drop_rate": 0.48849017792636606,
+      "bandwidth": 175.92092589768953
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:56",
+    "node_id": 360,
+    "attack_type": "unknown",
+    "confidence": "20.47%",
+    "features": {
+      "pdr": 0.5958433925779558,
+      "throughput": 74.22888520677206,
+      "packet_drop_rate": 0.34720670327063896,
+      "bandwidth": 91.24365302372254
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:56",
+    "node_id": 1982,
+    "attack_type": "unknown",
+    "confidence": "29.94%",
+    "features": {
+      "pdr": 1.2138255440576216,
+      "throughput": 63.88168030982299,
+      "packet_drop_rate": 0.0,
+      "bandwidth": 107.01317527240855
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:56",
+    "node_id": 140,
+    "attack_type": "grayhole",
+    "confidence": "0.61%",
+    "features": {
+      "pdr": 0.4308836970342901,
+      "throughput": 15.868210863732509,
+      "packet_drop_rate": 0.6599660672654706,
+      "bandwidth": 110.36165942739301
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:56",
+    "node_id": 82,
+    "attack_type": "blackhole",
+    "confidence": "4.73%",
+    "features": {
+      "pdr": 0.18220061595634524,
+      "throughput": 24.956797254261893,
+      "packet_drop_rate": 0.7183491919782792,
+      "bandwidth": 10.0
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:56",
+    "node_id": 67,
+    "attack_type": "grayhole",
+    "confidence": "0.93%",
+    "features": {
+      "pdr": 0.5519790991590903,
+      "throughput": 15.223176946990867,
+      "packet_drop_rate": 0.4037325300815121,
+      "bandwidth": 114.7670321766098
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:56",
+    "node_id": 84,
+    "attack_type": "blackhole",
+    "confidence": "22.17%",
+    "features": {
+      "pdr": 0.2856132328427215,
+      "throughput": 25.771950386838633,
+      "packet_drop_rate": 0.7468608997532793,
+      "bandwidth": 48.735879060726035
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:56",
+    "node_id": 103,
+    "attack_type": "blackhole",
+    "confidence": "3.04%",
+    "features": {
+      "pdr": 0.2419525367544685,
+      "throughput": 11.902941775275897,
+      "packet_drop_rate": 0.7389675713643037,
+      "bandwidth": 10.0
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:56",
+    "node_id": 205,
+    "attack_type": "sinkhole",
+    "confidence": "3.95%",
+    "features": {
+      "pdr": 1.0421732105453354,
+      "throughput": 14.618595529946049,
+      "packet_drop_rate": 0.0,
+      "bandwidth": 38.535755701703025
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:56",
+    "node_id": 97,
+    "attack_type": "blackhole",
+    "confidence": "2.36%",
+    "features": {
+      "pdr": -0.11043958557601782,
+      "throughput": 13.483761482618988,
+      "packet_drop_rate": 1.0,
+      "bandwidth": 10.0
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:56",
+    "node_id": 156,
+    "attack_type": "grayhole",
+    "confidence": "0.58%",
+    "features": {
+      "pdr": 0.41897865953425256,
+      "throughput": 0.11523646046042092,
+      "packet_drop_rate": 0.7227453287313506,
+      "bandwidth": 10.0
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:56",
+    "node_id": 2105,
+    "attack_type": "unknown",
+    "confidence": "35.86%",
+    "features": {
+      "pdr": 1.0835592083381127,
+      "throughput": 83.47503285281442,
+      "packet_drop_rate": 0.0,
+      "bandwidth": 157.28275884991749
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:56",
+    "node_id": 203,
+    "attack_type": "blackhole",
+    "confidence": "4.25%",
+    "features": {
+      "pdr": -0.18068424110799347,
+      "throughput": 10.032190738155391,
+      "packet_drop_rate": 1.0,
+      "bandwidth": 10.0
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:56",
+    "node_id": 138,
+    "attack_type": "blackhole",
+    "confidence": "0.56%",
+    "features": {
+      "pdr": 0.01511220805282451,
+      "throughput": 7.263685252298711,
+      "packet_drop_rate": 1.0,
+      "bandwidth": 62.13342789236059
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:56",
+    "node_id": 87,
+    "attack_type": "grayhole",
+    "confidence": "1.29%",
+    "features": {
+      "pdr": 0.42575345560770034,
+      "throughput": 24.865487490825952,
+      "packet_drop_rate": 0.5215530016810596,
+      "bandwidth": 10.0
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:56",
+    "node_id": 5,
+    "attack_type": "blackhole",
+    "confidence": "0.20%",
+    "features": {
+      "pdr": 0.1362503144358132,
+      "throughput": 12.220132263055309,
+      "packet_drop_rate": 0.7634315516265047,
+      "bandwidth": 111.77699342263514
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:56",
+    "node_id": 31,
+    "attack_type": "grayhole",
+    "confidence": "0.31%",
+    "features": {
+      "pdr": 0.4736523526898052,
+      "throughput": 15.236189631678762,
+      "packet_drop_rate": 0.5673640288474185,
+      "bandwidth": 28.102314252889144
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:56",
+    "node_id": 131,
+    "attack_type": "grayhole",
+    "confidence": "0.50%",
+    "features": {
+      "pdr": 0.462970087579627,
+      "throughput": 16.187214629134257,
+      "packet_drop_rate": 0.5429984697248679,
+      "bandwidth": 10.0
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:56",
+    "node_id": 23,
+    "attack_type": "blackhole",
+    "confidence": "2.67%",
+    "features": {
+      "pdr": -0.19526833656201,
+      "throughput": 7.054784259002574,
+      "packet_drop_rate": 1.0,
+      "bandwidth": 16.56631315700111
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:56",
+    "node_id": 1811,
+    "attack_type": "grayhole",
+    "confidence": "50.96%",
+    "features": {
+      "pdr": 0.5945680711213728,
+      "throughput": 55.88754535188008,
+      "packet_drop_rate": 0.40730839375195405,
+      "bandwidth": 90.96654393004656
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:56",
+    "node_id": 120,
+    "attack_type": "blackhole",
+    "confidence": "4.46%",
+    "features": {
+      "pdr": 0.16232933589983123,
+      "throughput": 17.102928439671945,
+      "packet_drop_rate": 0.8251034132256753,
+      "bandwidth": 10.0
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:56",
+    "node_id": 1906,
+    "attack_type": "unknown",
+    "confidence": "39.93%",
+    "features": {
+      "pdr": 0.8811686509982395,
+      "throughput": 91.96804197391938,
+      "packet_drop_rate": 0.14417504602715564,
+      "bandwidth": 224.72122112926746
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:56",
+    "node_id": 363,
+    "attack_type": "unknown",
+    "confidence": "28.30%",
+    "features": {
+      "pdr": 0.7556629250752245,
+      "throughput": 88.02194397748113,
+      "packet_drop_rate": 0.2534084545154553,
+      "bandwidth": 135.09553160571804
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:56",
+    "node_id": 139,
+    "attack_type": "blackhole",
+    "confidence": "2.09%",
+    "features": {
+      "pdr": 0.037434538467547365,
+      "throughput": 24.37077743383456,
+      "packet_drop_rate": 0.9880709911735757,
+      "bandwidth": 30.57194819789619
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:56",
+    "node_id": 135,
+    "attack_type": "blackhole",
+    "confidence": "6.64%",
+    "features": {
+      "pdr": 0.16538957836031076,
+      "throughput": 24.426742744741592,
+      "packet_drop_rate": 0.7320981886211874,
+      "bandwidth": 10.0
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:56",
+    "node_id": 1126,
+    "attack_type": "unknown",
+    "confidence": "34.06%",
+    "features": {
+      "pdr": 1.0889124119752016,
+      "throughput": 94.79263459444628,
+      "packet_drop_rate": 0.0,
+      "bandwidth": 10.0
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:56",
+    "node_id": 133,
+    "attack_type": "grayhole",
+    "confidence": "4.26%",
+    "features": {
+      "pdr": 0.4789905456066478,
+      "throughput": 25.01513739238505,
+      "packet_drop_rate": 0.5260679508591365,
+      "bandwidth": 74.01856741899645
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:56",
+    "node_id": 131,
+    "attack_type": "grayhole",
+    "confidence": "2.57%",
+    "features": {
+      "pdr": 0.4512882933811317,
+      "throughput": 16.285948270741372,
+      "packet_drop_rate": 0.4998769552270394,
+      "bandwidth": 10.0
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:56",
+    "node_id": 139,
+    "attack_type": "blackhole",
+    "confidence": "3.43%",
+    "features": {
+      "pdr": -0.10794325619347081,
+      "throughput": 24.4416535527901,
+      "packet_drop_rate": 1.0,
+      "bandwidth": 10.0
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:56",
+    "node_id": 98,
+    "attack_type": "grayhole",
+    "confidence": "12.51%",
+    "features": {
+      "pdr": 0.5720988688143118,
+      "throughput": 11.402961241961172,
+      "packet_drop_rate": 0.4666838368496059,
+      "bandwidth": 10.0
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:56",
+    "node_id": 77,
+    "attack_type": "grayhole",
+    "confidence": "16.86%",
+    "features": {
+      "pdr": 0.4896401485925298,
+      "throughput": 8.343262191948769,
+      "packet_drop_rate": 0.48484768289163443,
+      "bandwidth": 10.0
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:56",
+    "node_id": 77,
+    "attack_type": "blackhole",
+    "confidence": "3.60%",
+    "features": {
+      "pdr": -0.2686841656880685,
+      "throughput": 8.603691600685638,
+      "packet_drop_rate": 1.0,
+      "bandwidth": 38.74711779459193
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:56",
+    "node_id": 119,
+    "attack_type": "grayhole",
+    "confidence": "1.60%",
+    "features": {
+      "pdr": 0.46003756027394405,
+      "throughput": 23.916766094611976,
+      "packet_drop_rate": 0.46413716083102824,
+      "bandwidth": 23.36022234363993
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:56",
+    "node_id": 75,
+    "attack_type": "grayhole",
+    "confidence": "2.15%",
+    "features": {
+      "pdr": 0.5266043998092483,
+      "throughput": 16.444624534517597,
+      "packet_drop_rate": 0.4133373709792525,
+      "bandwidth": 10.0
+    }
+  },
+  {
+    "timestamp": "2026-03-10 15:00:56",
+    "node_id": 87,
+    "attack_type": "blackhole",
+    "confidence": "4.70%",
+    "features": {
+      "pdr": 0.25894668740753984,
+      "throughput": 24.736451990159917,
+      "packet_drop_rate": 0.7865035642145182,
+      "bandwidth": 26.671959592952227
     }
   }
 ]
