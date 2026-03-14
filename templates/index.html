@@ -80,6 +80,63 @@
             border-radius: 10px;
             padding: 1rem;
         }
+
+        /* ── User menu & logout styles ── */
+        .user-pill {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(255,255,255,0.08);
+            border: 1px solid rgba(255,255,255,0.15);
+            border-radius: 50px;
+            padding: 5px 14px 5px 6px;
+            cursor: pointer;
+            transition: background 0.2s;
+            text-decoration: none;
+        }
+        .user-pill:hover { background: rgba(255,255,255,0.14); }
+        .user-avatar {
+            width: 30px; height: 30px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #c8a96e, #e8c994);
+            display: flex; align-items: center; justify-content: center;
+            font-size: 12px; font-weight: 700; color: #0a0a0f;
+            flex-shrink: 0;
+        }
+        .user-email {
+            font-size: 12px; color: rgba(255,255,255,0.85);
+            max-width: 140px;
+            overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+        }
+        .logout-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 6px 14px;
+            background: rgba(231,76,60,0.15);
+            border: 1px solid rgba(231,76,60,0.35);
+            border-radius: 8px;
+            color: #ff7675;
+            font-size: 13px;
+            font-weight: 500;
+            text-decoration: none;
+            transition: background 0.2s, border-color 0.2s, transform 0.1s;
+            white-space: nowrap;
+        }
+        .logout-btn:hover {
+            background: rgba(231,76,60,0.28);
+            border-color: rgba(231,76,60,0.6);
+            color: #ff7675;
+            transform: translateY(-1px);
+        }
+        .logout-btn:active { transform: scale(0.97); }
+
+        /* divider between bell and user info */
+        .nav-divider {
+            width: 1px; height: 22px;
+            background: rgba(255,255,255,0.15);
+            margin: 0 6px;
+        }
     </style>
 </head>
 <body>
@@ -94,15 +151,44 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
+                <ul class="navbar-nav ms-auto align-items-center">
                     <li class="nav-item"><a class="nav-link" href="#overview">Overview</a></li>
                     <li class="nav-item"><a class="nav-link" href="#analysis">Analysis</a></li>
                     <li class="nav-item"><a class="nav-link" href="#results">Results</a></li>
                     <li class="nav-item"><a class="nav-link" href="#incidents">Incidents</a></li>
+
+                    <!-- Bell icon -->
                     <li class="nav-item">
                         <a class="nav-link notification-bell" onclick="toggleAlertPanel()">
                             <i class="bi bi-bell-fill fs-5"></i>
                             <span class="notification-badge d-none" id="notificationCount">0</span>
+                        </a>
+                    </li>
+
+                    <!-- Divider -->
+                    <li class="nav-item d-none d-lg-flex align-items-center">
+                        <div class="nav-divider"></div>
+                    </li>
+
+                    <!-- User pill -->
+                    <li class="nav-item d-none d-lg-flex align-items-center me-2">
+                        <span class="user-pill">
+                            <div class="user-avatar">{{ session.get('user', '?')[0].upper() }}</div>
+                            <span class="user-email">{{ session.get('user', 'Guest') }}</span>
+                        </span>
+                    </li>
+
+                    <!-- Logout button -->
+                    <li class="nav-item">
+                        <a href="/logout" class="logout-btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24"
+                                 fill="none" stroke="currentColor" stroke-width="2.2"
+                                 stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/>
+                                <polyline points="16 17 21 12 16 7"/>
+                                <line x1="21" y1="12" x2="9" y2="12"/>
+                            </svg>
+                            Logout
                         </a>
                     </li>
                 </ul>
@@ -328,8 +414,6 @@
                     <p class="lead text-muted">Comprehensive analysis of network security metrics</p>
                 </div>
             </div>
-
-            <!-- Charts (keeping existing structure) -->
             <div class="mb-5" data-aos="fade-up" data-aos-delay="100">
                 <div class="card border-0 shadow-lg">
                     <div class="card-header bg-transparent border-0 p-4">
@@ -356,8 +440,6 @@
                     </div>
                 </div>
             </div>
-
-            <!-- Attack Distribution Chart -->
             <div class="mb-5" data-aos="fade-up" data-aos-delay="150">
                 <div class="card border-0 shadow-lg" id="attackDistributionCard" style="display:none;">
                     <div class="card-header bg-transparent border-0 p-4">
@@ -378,7 +460,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="mb-5" data-aos="fade-up" data-aos-delay="200">
                 <div class="card border-0 shadow-lg">
                     <div class="card-header bg-transparent border-0 p-4">
@@ -405,7 +486,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="mb-5" data-aos="fade-up" data-aos-delay="300">
                 <div class="card border-0 shadow-lg">
                     <div class="card-header bg-transparent border-0 p-4">
@@ -432,7 +512,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="mb-5" data-aos="fade-up" data-aos-delay="400">
                 <div class="card border-0 shadow-lg">
                     <div class="card-header bg-transparent border-0 p-4">

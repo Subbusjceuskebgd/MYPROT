@@ -129,10 +129,36 @@ def logout():
     return redirect(url_for('login'))
 
 
-@app.route('/register')
+@app.route('/register', methods=['GET', 'POST'])
 def register():
-    # Stub — build registration page as needed
-    return "Register page — coming soon"
+    if 'user' in session:
+        return redirect(url_for('index'))
+
+    if request.method == 'POST':
+        first_name       = request.form.get('first_name', '').strip()
+        last_name        = request.form.get('last_name', '').strip()
+        email            = request.form.get('email', '').strip().lower()
+        password         = request.form.get('password', '')
+        confirm_password = request.form.get('confirm_password', '')
+        terms            = request.form.get('terms')
+
+        # Validation
+        if not all([first_name, last_name, email, password, confirm_password]):
+            flash('All fields are required.', 'error')
+        elif password != confirm_password:
+            flash('Passwords do not match.', 'error')
+        elif len(password) < 8:
+            flash('Password must be at least 8 characters.', 'error')
+        elif not terms:
+            flash('You must agree to the Terms of Service.', 'error')
+        elif email in USERS:
+            flash('An account with this email already exists.', 'error')
+        else:
+            USERS[email] = generate_password_hash(password)
+            flash('Account created! Please sign in.', 'success')
+            return redirect(url_for('login'))
+
+    return render_template('register.html')
 
 
 @app.route('/forgot-password')

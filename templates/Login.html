@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Login — MyProt</title>
+  <title>Login — Malicious Node Detection and Prediction</title>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
   <style>
     *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
@@ -266,11 +266,11 @@
   <div class="card">
 
     <div class="logo-wrap">
-      <div class="monogram">MP</div>
-      <span class="brand-name">MyProt</span>
+      <div class="monogram">MD</div>
+      <span class="brand-name">Malicious Node Detection System</span>
     </div>
 
-    <h1 class="heading">Welcome <em>back</em></h1>
+    <h1 class="heading">Welcome <em>Back!</em></h1>
     <p class="sub">Sign in to continue to your dashboard</p>
     <div class="divider"></div>
 
@@ -284,8 +284,7 @@
     {% endwith %}
 
     <form method="POST" action="{{ url_for('login') }}" novalidate>
-      <!-- CSRF token if you use Flask-WTF -->
-      <!-- {{ form.hidden_tag() }} -->
+      <!-- CSRF token: add Flask-WTF here if needed -->
 
       <div class="form-group">
         <label for="email">Email address</label>
@@ -328,14 +327,14 @@
           <input type="checkbox" name="remember" id="remember" />
           Remember me
         </label>
-        <a href="{{ url_for('forgot_password') if 'forgot_password' in dir() else '#' }}" class="forgot">Forgot password?</a>
+        <a href="/forgot-password" class="forgot">Forgot password?</a>
       </div>
 
       <button type="submit" class="btn-login">Sign In</button>
     </form>
 
     <div class="card-footer">
-      Don't have an account? <a href="{{ url_for('register') if 'register' in dir() else '#' }}">Create one</a>
+      Don't have an account? <a href="/register">Create one</a>
     </div>
 
   </div>
